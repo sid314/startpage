@@ -36,6 +36,20 @@
   font-family: Iosevka;
   font-size: 28px;
 }
+.url {
+  color: var(--fg);
+  font-size: 2.5em;
+  text-align: center;
+  border: 0px;
+  background-color: var(--lightbg);
+  height: 70px;
+  width: 1200px;
+  border-radius: 15px;
+}
+.middle {
+  margin-top: 60px;
+  text-align: center;
+}
 .bookmarks {
   margin-top: 40px;
   justify-content: center;
