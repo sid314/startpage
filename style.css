@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: "Iosevka";
-  src: url(../fonts/Iosevka-regular.ttf);
+  src: local(../fonts/Iosevka-regular.ttf);
 }
 * {
   font-family: Iosevka;
