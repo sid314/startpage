@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: "Iosevka";
-  src: local(../fonts/Iosevka-regular.ttf);
+  src: url(../fonts/Iosevka-regular.ttf);
 }
 * {
   font-family: Iosevka;
@@ -35,49 +35,6 @@
   margin-top: 14px;
   font-family: Iosevka;
   font-size: 28px;
-}
-.clock {
-  justify-content: right;
-  display: flex;
-  font-family: Iosevka;
-  font-weight: Medium;
-  font-size: 48px;
-  margin-top: 5px;
-}
-.info {
-  width: 150px;
-  margin-left: auto;
-  margin-right: 20px;
-  display: inline-flex;
-  position: relative;
-  justify-content: right;
-}
-.info_right{
-  display: flex;
-  font-family: Iosevka;
-  font-size: 26px;
-  text-indent: 4px;
-  height: 40px;
-  bottom: 0;
-  position: absolute;
-}
-.url {
-  color: var(--fg);
-  font-size: 2.5em;
-  text-align: center;
-  border: 0px;
-  background-color: var(--lightbg);
-  height: 70px;
-  width: 1200px;
-  border-radius: 15px;
-}
-.url:focus,
-.url:hover {
-  outline: none;
-}
-.middle {
-  margin-top: 60px;
-  text-align: center;
 }
 .bookmarks {
   margin-top: 40px;
@@ -119,14 +76,6 @@
 .in_list_two:hover {
   color: #11171D;
   background-color: #96CDFB;
-}
-.in_list_three:hover {
-  color: #11171D;
-  background-color: #B5E8E0;
-}
-.in_list_four:hover {
-  color: #11171D;
-  background-color: #F28FAD;
 }
 .link_text {
   color: var(--fg);
