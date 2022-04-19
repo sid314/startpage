@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 .body {
-  background-image: url(../bg.jpg);
+  background-image: local(../bg.jpg);
   margin: 0;
   position: absolute;
   top: 50%;
