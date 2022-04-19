@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 .body {
-  background-image: local(../bg.jpg);
+  background-color: var(--darkbg);
   margin: 0;
   position: absolute;
   top: 50%;
