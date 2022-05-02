@@ -25,7 +25,7 @@
   color: var(--darkbg);
   height: 100px;
   margin: 0% auto;
-  width: 1320px;
+  width: 900px;
   display: flex;
   background-image: linear-gradient(to right,#8fbcbb,#88c0d0, #81a1c1, #5e81ac);
   border-radius: 8px;
@@ -43,7 +43,7 @@
   border: 0px;
   background-color: var(--lightbg);
   height: 70px;
-  width: 1200px;
+  width: 900px;
   border-radius: 15px;
 }
 .middle {
@@ -56,8 +56,8 @@
   display: flex;
 }
 .menu_place {
-  width: 280px;
-  height: 265px;
+  width: 60px;
+  height: 60px;
   justify-content: center;
   margin: 13.3px;
 }
@@ -95,4 +95,7 @@
   color: var(--fg);
   vertical-align: middle;
   font-variant: small-caps;
+}
+.buttons {
+  font-size: 36px;
 }
