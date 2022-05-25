@@ -53,11 +53,12 @@
 .bookmarks {
   margin-top: 40px;
   justify-content: center;
+  align-items: center;
   display: flex;
 }
 .menu_place {
   width: 60px;
-  height: 60px;
+  height: 54px;
   justify-content: center;
   margin: 13.3px;
 }
@@ -98,4 +99,8 @@
 }
 .buttons {
   font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end
+  ;
 }
