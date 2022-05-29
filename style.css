@@ -1,7 +1,7 @@
 :root {
   /* Colors */
-  --darkbg: #11171D;
-  --lightbg: #161D25;
+  --darkbg: #2e3440;
+  --lightbg: #3b4252;
   --fg: #5e81ac;
 }
 @font-face {
@@ -21,21 +21,6 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.header {
-  color: var(--darkbg);
-  height: 100px;
-  margin: 0% auto;
-  width: 900px;
-  display: flex;
-  background-image: linear-gradient(to right,#8fbcbb,#88c0d0, #81a1c1, #5e81ac);
-  border-radius: 8px;
-}
-.helo{
-  margin-left: 20px;
-  margin-top: 14px;
-  font-family: Iosevka;
-  font-size: 28px;
-}
 .url {
   color: var(--fg);
   font-size: 2.5em;
@@ -46,10 +31,7 @@
   width: 900px;
   border-radius: 15px;
 }
-.middle {
-  margin-top: 60px;
-  text-align: center;
-}
+
 .bookmarks {
   margin-top: 40px;
   justify-content: center;
@@ -61,41 +43,6 @@
   height: 54px;
   justify-content: center;
   margin: 13.3px;
-}
-.list {
-  text-align: center;
-  display: block;
-  font-size: 32px;
-  margin-top: 20px;
-}
-.menu_name {
-  height: 50px;
-  padding-top: 10px;
-  color: var(--fg);
-  text-align: center;
-  background-color: var(--lightbg);
-  font-size: 36px;
-  border-radius: 15px;
-}
-.in_list_general {
-  color: var(--fg);
-  border-radius: 8px;
-  height: 40px;
-  text-align: left;
-  padding-left: 25px;
-}
-.in_list_one:hover {
-  color: #11171D;
-  background-color: #5e81ac;
-}
-.in_list_two:hover {
-  color: #11171D;
-  background-color: #96CDFB;
-}
-.link_text {
-  color: var(--fg);
-  vertical-align: middle;
-  font-variant: small-caps;
 }
 .buttons {
   font-size: 36px;
