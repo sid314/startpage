@@ -1,8 +1,8 @@
 :root {
   /* Colors */
-  --darkbg: #2e3440;
-  --lightbg: #3b4252;
-  --fg: #5e81ac;
+  --darkbg: #1D1D2D;
+  --lightbg: #464B61;
+  --fg: #EA76CB;
 }
 @font-face {
   font-family: "Iosevka";
