@@ -31,6 +31,7 @@
   width: 900px;
   border-radius: 15px;
   outline: none !important;
+  caret-color: transparent;
 }
 
 .bookmarks {
